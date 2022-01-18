@@ -40,7 +40,7 @@ public class SetterGetterGenerator {
                 name = tmp.substring(0, 1).toUpperCase() + tmp.substring(1);
                 setLine = "public void set" + name + "(" + type + " " + tmp + ")\n{\nthis." + tmp + "=" + tmp
                         + ";\n}\n";
-                getLine = "public " + type + " get" + name + "()\n{\nreturn " + tmp + ";\n}\n";
+                getLine = "public " + type + " get" + name + "()\n{\nreturn this." + tmp + ";\n}\n";
                 // System.out.println(setLine);
                 // System.out.println(getLine);
                 al.add(setLine);
