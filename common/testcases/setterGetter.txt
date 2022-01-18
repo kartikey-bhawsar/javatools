@@ -1,32 +1,21 @@
-public void setWattage(int wattage)
+public Setget()
 {
-this.wattage=wattage;
+code = "";
+title = "";
 }
-public int getWattage()
+public void setCode(int code)
 {
-return wattage;
+this.code=code;
 }
-public void setPrice(int price)
+public int getCode()
 {
-this.price=price;
+return code;
 }
-public int getPrice()
+public void setTitle(java.lang.String title)
 {
-return price;
+this.title=title;
 }
-public void setRating(java.lang.String rating)
+public java.lang.String getTitle()
 {
-this.rating=rating;
-}
-public java.lang.String getRating()
-{
-return rating;
-}
-public void setCompany(java.lang.String company)
-{
-this.company=company;
-}
-public java.lang.String getCompany()
-{
-return company;
+return title;
 }
