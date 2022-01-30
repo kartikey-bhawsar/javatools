@@ -25,7 +25,7 @@ public class SetterGetterGenerator {
             for (int i = 0; i < field.length; i++)
             {
                 String tmp = field[i].getName();
-                constructor += tmp + " = \"\";\n";
+                constructor += "this." +  tmp + " = \"\";\n";
             }
             constructor += "}\n";
             ArrayList<String> al = new ArrayList<>();

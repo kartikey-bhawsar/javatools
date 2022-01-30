@@ -1,21 +1,84 @@
-public Setget()
+public setget()
 {
-code = "";
-title = "";
+this.employeeId = "";
+this.name = "";
+this.designationCode = "";
+this.dateOfBirth = "";
+this.gender = "";
+this.isIndian = "";
+this.basicSalary = "";
+this.aadharNumber = "";
+this.panNumber = "";
 }
-public void setCode(int code)
+public void setEmployeeId(java.lang.String employeeId)
 {
-this.code=code;
+this.employeeId=employeeId;
 }
-public int getCode()
+public java.lang.String getEmployeeId()
 {
-return code;
+return this.employeeId;
 }
-public void setTitle(java.lang.String title)
+public void setName(java.lang.String name)
 {
-this.title=title;
+this.name=name;
 }
-public java.lang.String getTitle()
+public java.lang.String getName()
 {
-return title;
+return this.name;
+}
+public void setDesignationCode(int designationCode)
+{
+this.designationCode=designationCode;
+}
+public int getDesignationCode()
+{
+return this.designationCode;
+}
+public void setDateOfBirth(java.util.Date dateOfBirth)
+{
+this.dateOfBirth=dateOfBirth;
+}
+public java.util.Date getDateOfBirth()
+{
+return this.dateOfBirth;
+}
+public void setGender(char gender)
+{
+this.gender=gender;
+}
+public char getGender()
+{
+return this.gender;
+}
+public void setIsIndian(boolean isIndian)
+{
+this.isIndian=isIndian;
+}
+public boolean getIsIndian()
+{
+return this.isIndian;
+}
+public void setBasicSalary(java.math.BigDecimal basicSalary)
+{
+this.basicSalary=basicSalary;
+}
+public java.math.BigDecimal getBasicSalary()
+{
+return this.basicSalary;
+}
+public void setAadharNumber(java.lang.String aadharNumber)
+{
+this.aadharNumber=aadharNumber;
+}
+public java.lang.String getAadharNumber()
+{
+return this.aadharNumber;
+}
+public void setPanNumber(java.lang.String panNumber)
+{
+this.panNumber=panNumber;
+}
+public java.lang.String getPanNumber()
+{
+return this.panNumber;
 }
